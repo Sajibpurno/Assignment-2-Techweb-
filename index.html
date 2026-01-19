@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="bg-[#1A0B2E] w-full">
-         <nav class="mb-[59px] py-[30px] ">
+         <nav class="">
         <div class="max-w-[1170px] flex justify-between mx-auto items-center  m-auto">
             <h3 class="text-[28px] lg:text-[35px] font-extrabold text-[#414040]"><span class="text-[#FFFFFF]">Tech</span><span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Web</span></h3>
         
@@ -19,7 +19,7 @@
             <li class=""><a href="" class="">Host</a></li>
         </ul>
 
-        <button class="hidden md:block bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-3"><a class="text-[#FFFFFF] text-[16px] font-semibold" href="">Subscribe</a></button>
+        <button class="hover:from-[#9100F8] hover:via-[#FB09B4] hover:to-[#F7E93F] cursor-pointer hidden md:block bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[1000px] px-4 py-2"><a class="text-[#FFFFFF] text-[16px] font-semibold" href="">Subscribe <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></button>
         <!-- only for small device -->
         <button id="" class="block md:hidden text-2xl text-white">
         ☰
@@ -30,14 +30,20 @@
        </nav>
 
        <!-- banner section -->
-       <div class="max-w-[1170px] h-[550px] mx-auto bg-[url('./image/hero-bg.png')] bg-cover bg-center rounded-lg flex justify-center items-center ">
+       <div class="max-w-[1600px] h-[760px] mx-auto bg-[url('./image/hero-bg.png')] bg-cover bg-center rounded-lg flex justify-center items-center">
 
-        <div class="mx-auto text-[#FFFFFF] text-center max-w-[692px] ">
+        <div class="mx-auto text-[#FFFFFF] text-center max-w-[511px] pt-[101px]">
 
-    <div class="relative w-[280px] h-[280px] mx-auto mb-10">
+    <div class="relative w-[350px] h-[350px] mx-auto mb-8">
         
         <!-- Background Circle -->
         <div class="absolute inset-0 bg-[url('./image/hero-circle.png')] bg-cover bg-center"></div>
+        
+        <!-- new option in top -->
+        <div class="absolute top-[20px] right-3 bg-[#00FF88] text-[#1A0B2E] text-[18px] font-bold 
+                px-4 py-2 rounded-full shadow-[0_3px_27px_0_rgba(0,255,136,0.5)] ">
+            NEW
+        </div>
 
         <!-- Microphone Image -->
         <div class="absolute inset-0 flex justify-center items-center">
@@ -51,8 +57,10 @@
         
         
         <div class="flex justify-center gap-2">
-             <button class=" bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-[12.5px] rounded-[1000px] text-[16px] text-white font-semibold"><a href="">Listen on Spotify</a></button>
-             <button class=" border-2 border-[#00FF88] px-5 py-[12.5px] rounded-[1000px]"><a href="">Subscribe</a></button>
+             
+            <button class="hover:shadow-[0_0_35px_rgba(251,9,180,0.6)] bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-[12.5px] rounded-[1000px] text-[16px] text-white font-semibold cursor-pointer"><a href=""><i class="fa-brands fa-spotify" style="color: #ffffff;"></i> Listen on Spotify</a></button>
+             
+             <button class="text-[#00FF88] border-2 border-[#00FF88] px-5 py-[12.5px] rounded-[1000px] cursor-pointer hover:shadow-[0_0_35px_rgba(0,255,136,0.5)]"><a href=""><i class="fa-regular fa-envelope" style="color: #00ff88;"></i> Subscribe</a></button>
         </div>
 
         </div>        
@@ -60,7 +68,7 @@
       </div>
 
       <!-- About the Podcast -->
-       <section class="mt-[50px] mx-auto justify-items-center">
+       <section class=" pt-[50px] mx-auto justify-items-center">
         <!-- content writing -->
         <div class="max-w-[1200px] mx-auto text-center">
             <h2 class=" text-[48px] font-bold text-white mb-4">About the Podcast</h2>
@@ -107,27 +115,27 @@ and share stories of personal growth from industry leaders.
                 <div class=" row-span-2  px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/headphone.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Premium Audio Quality</h3>
-                    <p class="text-white text-[24px] leading-6">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                    <p class="text-white text-[16px] leading-6 font-normal">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
                 <div class=" col-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/device.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Mobile Friendly</h3>
-                    <p class="text-white text-[24px] leading-6 ">Listen on the go with seamless mobile experience and offline downloads.</p>
+                    <p class="text-white text-[16px] leading-6 ">Enjoy uninterrupted listening anywhere with a seamless mobile experience, offline downloads, and easy access to your favorite episodes, so inspiration and insights travel with you every time..</p>
                 </div>
                 <div class=" col-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/location.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Global Community</h3>
-                    <p class="text-white text-[24px] leading-6">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                    <p class="text-white text-[16px] leading-6">Connect with tech enthusiasts from over 120 countries worldwide, share ideas, exchange knowledge, build meaningful relationships, and grow together within a global community driven by innovation and technology</p>
                 </div>
                 <div class="col-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/zap-fast.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Exclusive Interviews</h3>
-                    <p class="text-white text-[24px] leading-6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                    <p class="text-white text-[16px] leading-6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                 </div>
                 <div class=" px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/resource.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Rich Resources</h3>
-                    <p class="text-white text-[24px] leading-6">Access show notes, transcripts, and additional learning materials for every episode.</p>
+                    <p class="text-white text-[16px] leading-6">Access show notes, transcripts, and additional learning materials for every episode.</p>
                 </div>
 
             </div>
@@ -135,6 +143,7 @@ and share stories of personal growth from industry leaders.
        </section>
 
        <section class="bg-[#1A0B2E] w-full mx-auto">
+
         <!-- featured episode -->
          <h2 class="text-[48px] text-white text-center mb-10 font-bold pt-[120px]">Featured Episodes</h2>
 
@@ -146,21 +155,21 @@ and share stories of personal growth from industry leaders.
                 <h3 class="text-white text-2xl font-bold mb-3 px-6 pt-6">What Is an AI Anyway?</h3>
 
                 <p class="text-white text-[16px] mb-3 leading-6 px-6">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 42 min</p>
+                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 22 min</p>
             </div>
             <div class="max-w-[380px] h-[440px] bg-[#250D44] rounded-[40px]">
-                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/UclrVWafRAI?si=vLri1oiFF_Lfbogx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" <iframe width="560" height="315" src="https://www.youtube.com/embed/NgoJjIFULDE?si=2tpurgnkUZuvUuvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
 
-                <h3 class="text-white text-2xl font-bold mb-3 px-6 pt-6">The AI Safety Expert</h3>
+                <h3 class="text-white text-2xl font-bold mb-3 px-6 pt-6">Building better habits</h3>
                 <p class="text-white text-[16px] mb-3 leading-6 px-6">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 42 min</p>
+                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 13 min</p>
             </div>
             <div class="max-w-[380px] h-[440px] bg-[#250D44] rounded-[40px]">
-                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/Fybeh8o4eP4?si=APrHnEYNMtSzNG1t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/0-FUhQKe-eU?si=cqB5C0AwHF5PIso-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                <h3 class="text-white text-2xl font-bold mb-3 px-6 pt-6">The Future of AI in Everyday Life</h3>
+                <h3 class="text-white text-2xl font-bold mb-3 px-6 pt-6">Start Earning Money With AI</h3>
                 <p class="text-white text-[16px] mb-3 leading-6 px-6">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 42 min</p>
+                <p class="text-[#00FF88] text-[16px] font-semibold px-6"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 1h</p>
             </div>
          </div>
 
@@ -188,8 +197,32 @@ and share stories of personal growth from industry leaders.
        </section>  
     </main>
 
-    <footer class=" bg-/.image">
+    <footer class="max-w-[1600px] h-[412px] mx-auto bg-[url('./image/footer-bg.png')] bg-cover bg-center flex items-center justify-center">
        
+        <div class=" ">
+            <h1 class="mb-8 text-center text-[30px] lg:text-[80px] font-extrabold text-[#414040]"><span class="text-[#FFFFFF]">Tech</span><span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Web</span></h1>
+
+            <div class="flex gap-10 justify-center mb-8">
+                
+                <div class="flex items-center gap-2">
+                    <img class=" max-w-[544px] gap-2.5" src="./image/spotify.png" alt="">
+                <p class="text-[16px] text-white">Spotify</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./image/apple-podcast.png" alt="">
+                <p class="text-[16px] text-white">Apple Podcasts</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./image/youtube-podcast.png" alt="">
+                <p class="text-[16px] text-white">YouTube</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./image/twitter.png" alt="">
+                <p class="text-[16px] text-white">Twitter</p>
+                </div>
+            </div>
+            <p class=" text-center text-[16px] text-white leading-6">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
