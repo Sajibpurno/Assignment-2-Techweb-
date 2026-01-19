@@ -6,9 +6,22 @@
     <title>TechWeb</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+         html, body {
+    overflow-x: hidden;
+  }
+    </style>
 </head>
-<body>
-    <header class="bg-[#1A0B2E] w-full">
+<body class="font-inter">
+    <header class="bg-[#1A0B2E] w-full mx-auto">
          <nav class="">
         <div class="max-w-[1170px] flex justify-between mx-auto items-center  m-auto">
             <h3 class="text-[25px] lg:text-[35px] font-extrabold text-[#414040] ml-5"><span class="text-[#FFFFFF]">Tech</span><span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Web</span></h3>
@@ -40,7 +53,7 @@
         <div class="absolute inset-0 bg-[url('./image/hero-circle.png')] bg-cover bg-center"></div>
         
         <!-- new option in top -->
-        <div class="absolute top-5 right-3 bg-[#00FF88] text-[#1A0B2E] text-[18px] font-bold 
+        <div class="absolute top- 1 right-1 md:top-5 md:right-3 bg-[#00FF88] text-[#1A0B2E] text-[18px] font-bold 
                 px-4 py-2 rounded-full shadow-[0_3px_27px_0_rgba(0,255,136,0.5)] ">
             NEW
         </div>
@@ -52,7 +65,7 @@
     </div>
 
 
-        <h2 class=" text-[40px] md:text-[60px] md:text-[50px] lg:text-[60px] font-extrabold max-w-[550px] mb-2">TechWave</h2>
+        <h2 class=" text-[40px] md:text-[50px] lg:text-[60px] font-extrabold max-w-[550px] mb-2">TechWave</h2>
         <p class=" text-[16px] mb-6 ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         
         
@@ -114,7 +127,7 @@ and share stories of personal growth from industry leaders.
             <!-- grid box -->
             <div class="grid grid-cols-1 md:grid-cols-[repeat(3,380px)] grid-rows-[repeat(3,273px)] md:gap-[30px] gap-4 justify-items-center">
 
-                <div class="w-[400px] md:max-w-full row-span-2 px-6 py-6  md:px-10 md:py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
+                <div class="w-full max-w-[400px] md:max-w-full row-span-2 px-6 py-6  md:px-10 md:py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/headphone.png" alt="">
                     <h3 class="text-white text-[24px] font-bold mb-4">Premium Audio Quality</h3>
                     <p class="text-white text-[16px] leading-6 font-normal">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
