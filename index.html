@@ -15,9 +15,6 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-        /* html, body {
-    overflow-x: hidden;
-  }*/
     </style>
 </head>
 <body class="font-inter">
@@ -47,7 +44,7 @@
 
         <div class="mx-auto text-[#FFFFFF] text-center max-w-[511px] pt-[101px]">
 
-    <div class="relative md:w-[350px] w-[200px] md:h-[350px] h-[200px] mx-auto mb-8">
+        <div class="relative md:w-[350px] w-[200px] md:h-[350px] h-[200px] mx-auto md:mb-10 b-6">
         
         <!-- Background Circle -->
         <div class="absolute inset-0 bg-[url('./image/hero-circle.png')] bg-cover bg-center"></div>
@@ -64,10 +61,10 @@
        </div>
     </div>
 
-
-        <h2 class=" text-[40px] md:text-[50px] lg:text-[60px] font-extrabold max-w-[550px] mb-2">TechWave</h2>
-        <p class=" text-[16px] mb-6 ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-        
+        <div class="md:w-[550px]">
+            <h2 class=" text-[40px] md:text-[50px] lg:text-[60px] font-extrabold max-w-[550px] mb-2">TechWave</h2>
+        <p class="text-[16px] mb-6 ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        </div>
         
         <div class="flex justify-center gap-2">
              
@@ -118,24 +115,24 @@ and share stories of personal growth from industry leaders.
 
 
     <main class=" w-full mx-auto">
+        
         <!-- Why Choose TechWave -->
-         
-       <section class=" bg-[#230E3D] w-full ">
+       <section class=" bg-[#230E3D] w-full overflow-hidden">
         <div class="max-w-[1200px] mx-auto md:pb-[120px] pb-10">
             <h2 class="text-white md:text-[48px] text-[32px] font-bold mb-10 text-center md:pt-[120px] pt-10">Why Choose TechWave</h2>
 
             <!-- grid box -->
             <div class="grid grid-cols-1 md:grid-cols-[repeat(3,380px)] grid-rows-[repeat(3,273px)] md:gap-[30px] gap-4 justify-items-center">
 
-                    <div class="row-span md:row-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
-                    <img class="mb-4" src="./image/headphone.png" alt="">
-                    <h3 class="text-white text-[24px] font-bold mb-4">Premium Audio Quality</h3>
-                    <p class="text-white text-[16px] leading-6 font-normal">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                <div class="row-span md:row-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
+                <img class="mb-4" src="./image/headphone.png" alt="">
+                <h3 class="text-white text-[24px] font-bold mb-4">Premium Audio Quality</h3>
+                <p class="text-white text-[16px] leading-6 font-normal">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
                 <div class=" md:col-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
-                    <img class="mb-4" src="./image/device.png" alt="">
-                    <h3 class="text-white text-[24px] font-bold mb-4">Mobile Friendly</h3>
-                    <p class="text-white text-[16px] leading-6 ">Enjoy uninterrupted listening anywhere with a seamless mobile experience, offline downloads, and easy access to your favorite episodes, so inspiration and insights travel with you every time..</p>
+                <img class="mb-4" src="./image/device.png" alt="">
+                <h3 class="text-white text-[24px] font-bold mb-4">Mobile Friendly</h3>
+                <p class="text-white text-[16px] leading-6 ">Enjoy uninterrupted listening anywhere with a seamless mobile experience, offline downloads, and easy access to your favorite episodes, so inspiration and insights travel with you every time..</p>
                 </div>
                 <div class=" md:col-span-2 px-10 py-10 bg-[rgba(53,17,101,0.4)] rounded-[40px] flex flex-col justify-center items-start">
                     <img class="mb-4" src="./image/location.png" alt="">
@@ -163,24 +160,24 @@ and share stories of personal growth from industry leaders.
 
          <div class=" grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-[30px] max-w-[1200px] mx-auto md:pb-[120px] pb-[60px] justify-items-center">
 
-            <div class="max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
-                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/KKNCiRWd_j0?si=u0QN2n9qeZnUXR1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-full max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
+                <iframe class="w-full rounded-tl-[40px] rounded-tr-[40px] " width="380" height="214" src="https://www.youtube.com/embed/KKNCiRWd_j0?si=u0QN2n9qeZnUXR1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 <h3 class="text-white text-2xl font-bold md:mb-3 mb-2 md:px-6 px-4 md:pt-6 pt-4">What Is an AI Anyway?</h3>
 
                 <p class="text-white text-[16px] md:mb-3 mb-2 leading-6 md:px-6 px-4">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
                 <p class="text-[#00FF88] text-[16px] font-semibold md:px-6 px-4 mb-4"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 22 min</p>
             </div>
-            <div class="max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
-                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NgoJjIFULDE?si=_8nIf4ghpII2hmJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-full max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
+                <iframe class="w-full rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" 
+                src="https://www.youtube.com/embed/NgoJjIFULDE?si=_8nIf4ghpII2hmJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 <h3 class="text-white text-2xl font-bold md:mb-3 mb-2 md:px-6 px-4 md:pt-6 pt-4">Building better habits</h3>
                 <p class="text-white text-[16px] md:mb-3 mb-2 leading-6 md:px-6 px-4">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
                 <p class="text-[#00FF88] text-[16px] font-semibold md:px-6 px-4 mb-4"><i class="fa-solid fa-clock" style="color: #00ff88;"></i> 13 min</p>
             </div>
-            <div class="max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
-                <iframe class=" rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/0-FUhQKe-eU?si=cqB5C0AwHF5PIso-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="w-full max-w-[380px] md:h-[440px] h-[400px] bg-[#250D44] rounded-[40px]">
+                <iframe class="w-full rounded-tl-[40px] rounded-tr-[40px]" width="380" height="214" src="https://www.youtube.com/embed/0-FUhQKe-eU?si=cqB5C0AwHF5PIso-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 <h3 class="text-white text-2xl font-bold md:mb-3 mb-2 md:px-6 px-4 md:pt-6 pt-4">Start Earning Money With AI</h3>
                 <p class="text-white text-[16px] md:mb-3 mb-2 leading-6 md:px-6 px-4">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
@@ -192,14 +189,17 @@ and share stories of personal growth from industry leaders.
         <div class="pb-10 md:pb-[120px]">
         <h2 class="text-[48px] text-white font-bold text-center mb-10">Meet the Host</h2>
 
-        <div class="md:w-[1200px] w-[400px] md:h-[280px] h-[483px] bg-[#250D44] rounded-[40px] flex flex-col md:flex-row gap-6 items-center md:items-center text-center md:text-left mx-auto px-6 md:px-10 py-6 md:py-10">
+        <div class="md:max-w-[1200px] max-w-[400px] md:h-[280px] h-[483px] bg-[#250D44] rounded-[40px] flex flex-col md:flex-row gap-6 items-center md:items-center text-center md:text-left mx-auto px-6 md:px-10 py-6 md:py-10">
 
+            
                 <img class="md:w-[200px] w-[150px] md:h-[200px] h-[150px]" src="./image/host.png" alt="">
+        
 
             <div class=" max-w-4xl">
                 <h3 class="md:text-[32px] text-[24px] text-white font-bold mb-4">Alex Kumar</h3>
                 
                 <p class="mb-4 text-[16px] text-white leading-6 ">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+
                 <!-- icon -->
                 <div class="flex gap-2 justify-center md:justify-start">
                     <img src="./image/linkedin.png" alt="">
@@ -213,31 +213,32 @@ and share stories of personal growth from industry leaders.
        </section>  
     </main>
 
-    <footer class="md:max-w-[1600px] max-w-[440px] md:h-[412px] h-auto mx-auto bg-[url('./image/footer-bg.png')] bg-cover bg-center flex items-center justify-center">
+    <footer class="w-full h-[248px] md:h-[412px] py-6 md:py-0 mx-auto bg-[#1A0B2E] bg-[url('./image/footer-bg.png')] bg-no-repeat bg-center bg-size-[400px_248px] md:bg-cover flex items-center justify-center">
        
-        <div class=" ">
-            <h1 class="mb-8 text-center text-[30px] lg:text-[80px] font-extrabold text-[#414040]"><span class="text-[#FFFFFF]">Tech</span><span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Web</span></h1>
+        <div class="w-full max-w-[1000px] px-4 flex-col items-center">
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 justify-center mb-8">
+            <h1 class="mb-8 text-center text-[40px] lg:text-[80px] font-extrabold text-[#414040]"><span class="text-[#FFFFFF]">Tech</span><span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Web</span></h1>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-10 justify-center mb-10 md:pb-2">
                 
-                <div class="flex items-center gap-2 ml-12">
+                <div class="flex items-center gap-2 md:ml-30 ml-10">
                     <img class=" max-w-[544px] gap-2" src="./image/spotify.png" alt="">
                 <p class="text-[16px] text-white">Spotify</p>
                 </div>
-                <div class="flex items-center gap-2 ">
+                <div class="flex items-center gap-2 whitespace-nowrap md:ml-9">
                     <img src="./image/apple-podcast.png" alt="">
                 <p class="text-[16px] text-white">Apple Podcasts</p>
                 </div>
-                <div class="flex items-center gap-2 ml-6">
+                <div class="flex items-center gap-2 md:ml-8 ml-13">
                     <img src="./image/youtube-podcast.png" alt="">
                 <p class="text-[16px] text-white">YouTube</p>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 ml-5">
                     <img src="./image/twitter.png" alt="">
                 <p class="text-[16px] text-white">Twitter</p>
                 </div>
             </div>
-            <p class=" text-center text-[16px] text-white leading-6 pb-16">© 2026 TechWave Podcast. All rights reserved.</p>
+            <p class=" text-center text-[16px] text-white leading-6 md:mb-10">© 2026 TechWave Podcast. All rights reserved.</p>
         </div>
     </footer>
 </body>
